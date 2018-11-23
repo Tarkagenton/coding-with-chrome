@@ -5,7 +5,9 @@
   "author": "Markus Bordihn (mbordihn@google.com)",
   "license": "Apache-2.0",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "shepherd.js": "^2.0.0-beta.18"
+  },
   "devDependencies": {
     "bestzip": "^1.1.6",
     "closure-builder": "^2.3.2",

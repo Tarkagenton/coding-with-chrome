@@ -25,10 +25,12 @@ goog.provide('cwc.ui.LibraryTour');
  * @return {!Shepherd}
  */
 cwc.ui.LibraryTour.get = function(prefix = '') {
+  console.log(document.getElementById('cwc-dialog-chrome'));
   let tour = new Shepherd.Tour({
     'defaults': {
       'classes': 'shepherd-theme-arrows',
       'showCancelLink': true,
+      'renderLocation': document.getElementById('cwc-dialog-chrome'),
     },
   });
   tour.addStep('intro', {
