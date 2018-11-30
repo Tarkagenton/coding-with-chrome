@@ -30,7 +30,6 @@ cwc.ui.LibraryTour.get = function(prefix = '') {
     'defaults': {
       'classes': 'shepherd-theme-arrows',
       'showCancelLink': true,
-      'renderLocation': document.getElementById('cwc-dialog-chrome'),
     },
   });
   tour.addStep('intro', {
@@ -46,6 +45,9 @@ cwc.ui.LibraryTour.get = function(prefix = '') {
       'action': tour.next,
       'classes': 'shepherd-button-example-primary',
     }],
+    'tippyOptions': {
+      'appendTo': document.getElementById('cwc-dialog-chrome'),
+    },
   });
   tour.addStep('upload', {
     'title': i18t('File library'),

@@ -6,7 +6,8 @@
   "license": "Apache-2.0",
   "private": true,
   "dependencies": {
-    "shepherd.js": "^2.0.0-beta.18"
+    "shepherd.js": "^2.0.0-beta.18",
+    "tippy.js": "^3.2.0"
   },
   "devDependencies": {
     "bestzip": "^1.1.6",
